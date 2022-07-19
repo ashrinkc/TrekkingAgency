@@ -1,0 +1,237 @@
+.topItenary>img{
+    width: 1350px;
+    height: 400px;
+    left: 0px;
+
+}
+
+.topItenary>h1{
+    position: absolute;
+width: 783px;
+height: 78px;
+left: 169px;
+top: 332px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+
+color: #FFFFFF;
+}
+
+
+
+.TdetailsHead{
+    display: flex;
+    padding-left: 4vw;
+    margin-top: 21px;
+    max-width:max-content;
+}
+
+.Tdetails{
+    display: flex;
+    
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.Tdetails>p{
+    width: 65%;
+
+}
+
+.Tdetails>img{
+    padding-left: 3vh;
+}
+
+
+.Thighlights{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #E2E4F1;
+    margin-top: 4vh;
+    max-width: 83%;
+    justify-content: center;
+margin-left: 100px;
+}
+
+/* .Thighlights>h2{
+    padding-right: 68vw;
+    
+} */
+
+.trekList{
+    display: flex;
+}
+
+.item1 { grid-area: top; }
+.item2 { grid-area: ltop; }
+.item3 { grid-area: rtop; }
+.item4 { grid-area: midone; }
+.item5 { grid-area: midtwo; }
+.item6 { grid-area: midthree; }
+.item7 { grid-area: bone; }
+.item8 { grid-area: btwo; }
+.galleryGrid{
+    display: grid;
+  grid-template-areas:
+    'top top ltop rtop'
+    'midone midtwo midthree midthree'
+    'midone midtwo bone btwo';
+  gap: 10px;
+  padding: 10px;
+  max-width: 88%;
+ 
+}
+
+.gallery{
+    margin-left: 100px;
+    /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+}
+
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.nextone{
+    display: flex;
+    gap: 2vh;
+}
+
+.itenarys{
+    margin-left: 100px;
+    display: flex;
+    gap: 20vw;
+    justify-content: center;
+    max-width:fit-content;
+}
+
+.itebtn{
+    width: 500px;
+    height: 50px;
+    background-color: #FF0000;
+    display: flex;
+    gap: 20vh ;
+    border: none;
+    border-radius: 1rem;
+}
+
+.redbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.showAll{
+    display: flex;
+    align-items: center;
+    gap: 18vw;
+}
+
+.showAll>small:hover{
+    cursor: pointer;
+}
+/* .itebtn>span{
+    padding-right: 5vh;
+} */
+
+
+.itetrip{
+    background-color: #FF0000;
+    height: 9vh;
+    width: 84vw;
+    border-radius: 5px;
+    margin-top: 5vh;
+    border:none;
+    margin-left: 100px;
+}
+
+.midline{
+        width: 0px;
+        height: 28px;
+        border: 1px solid #424242;
+        margin-left: 10px;
+}
+
+.trekComponents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 344px;
+    height: 542px;
+    background: #FFFFFF;
+        border-radius: 45px 45px 0px 0px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+        box-shadow: 3px 3px 5px 6px #ccc;
+    /* align-items: center; */
+    margin-bottom: 4vh;
+}
+
+.contImg{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+/* .itePrice{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+
+.relatedTreks>h1{
+    margin: 10vh 0;
+}
+
+.moredetails{
+    background-color: #FF0000;
+    width: 11vw;
+    height: 7vh;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 2vh;
+}
+
+.landmarks{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    justify-content: center;
+    background-color: #EFEFEF;
+    height: 50px;
+}
+
+.maintrekComponents{
+    display: flex;
+    gap: 5vw;
+}
+
+.relatedTreks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itPage{
+    width: 1350px;
+}
+
+@media only screen and (max-width: 800px){
+    .moredetails{
+        width: 30vw;
+    }
+        .itetrip{
+            width: 82%;
+        }
+}

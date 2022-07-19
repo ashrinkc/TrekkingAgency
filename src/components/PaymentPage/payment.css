@@ -1,0 +1,151 @@
+.paymentContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    width: 60%;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.paymentContainer>h4{
+    margin-left: 5vh;
+    margin-bottom: -3vh;
+}
+
+.paymentContainer>h3{
+    margin-left: 5vh;
+}
+
+.paymentContainer>small{
+    margin-left: 5vh;
+}
+
+.mainPayment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainPayment>h1{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 78px;
+}
+
+.mainPayment>h3 {
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        /* identical to box height */
+    
+        margin-bottom: -5vh;
+        color: #FF0000;
+}
+
+.paymentPackage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paymentBtn>button{
+        background: #FF0000;
+            border-radius: 10px;
+            border: none;
+            width: 20vw;
+            height: 8vh;
+            margin-top: 5vh;
+}
+
+.paymentType{
+    display: flex;
+    justify-content: space-evenly;
+}
+.paymentAmount{
+    display: flex;
+    margin-left: 5vh;
+    width: 10vw;
+}
+.paymentAmount>h5{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 10vw;
+    height: 5vh;
+    border-style:solid ;
+    background-color:white;
+}
+
+.paymenthr{
+border: 1px solid #000000;
+}
+
+.bookRow{
+    display: flex;
+    gap: 2vw;
+    margin-left: 5vh;
+}
+
+.bookRow>div>input{
+    border: none;
+    width: 15vw;
+    height: 5vh;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.bookBtn{
+    margin-left: 5vh;
+    border: none;
+    width: 10vw;
+    height: 7vh;
+    background-color: #FF0000;
+    margin-top: 3vh ;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+}
+
+.mainPaymentPackage{
+     margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.paymentFull{
+    width: 1350px;
+}
+
+@media only screen and (max-width: 800px) {
+    .bookRow>div>input{
+        width: 100%;
+    }
+
+    .bookRow{
+        gap:17vw
+    }
+
+        .bookBtn{
+            width: 15vh;
+        }
+
+                .paymentBtn>button{
+                    width: 15vh;
+                }
+    .paymentAmount{
+        width: 25vw;
+    }
+
+
+
+
+}

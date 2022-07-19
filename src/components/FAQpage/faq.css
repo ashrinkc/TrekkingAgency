@@ -1,0 +1,81 @@
+.faqimg{
+    width: 1352px;
+    height: 60vh;
+}
+.faqContainer{
+    display: flex;
+    gap: 5vw;
+}
+.faqFull{
+    width: 1350px;
+}
+.faqTitle{
+    position: absolute;
+    left: 169px;
+        top: 332px;
+        font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 78px;
+            /* identical to box height */
+        
+        
+            color: #FFFFFF;
+}
+
+.faqInfo{
+    width: 800px;
+    height: 100vh;
+    margin-left: 142px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+        border-radius: 25px;
+    margin-bottom: 5vh;
+}
+
+.faqInfo>div>p{
+    margin: -2vh 8vw;
+    width: 500px;
+}
+
+.faqInfoHead{
+    display: flex;
+    gap: 3vw;
+    margin: 3vh 4vw;
+}
+
+.faqBtn{
+    background-color: red;
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    border-radius: 2rem;
+}
+
+.faqHead{
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0;
+}
+
+.faqHead>h2{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+}
+
+@media only screen and (max-width: 800px) {
+    .faqBtn{
+        width: 20vh;
+    }
+
+
+
+
+}

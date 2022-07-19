@@ -1,0 +1,265 @@
+.heliMain{
+    width: 1350px;
+}
+
+.heliimg{
+    width: 1352px;
+}
+
+
+.heliBody>img{
+    position: relative;
+}
+.heliBody>h1{
+    position: absolute;
+    top: 332px;
+    width: 403px;
+        height: 78px;
+        left: 169px;
+        font-weight: 700;
+            font-size: 64px;
+            line-height: 78px;
+            /* identical to box height */
+        
+        
+            color: #FFFFFF;
+}
+
+.heliDetails{
+    display: flex;
+padding-left: 4vw;
+    margin-top: 21px;
+    max-width: max-content;
+    
+}
+
+.heliDetails>img {
+    padding-left: 3vh;
+}
+
+.allComponents{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5vh
+    
+} 
+
+.HeliInfo{
+    display: flex;
+        align-items: center;
+            /* justify-content: center; */
+    gap: 4vh;
+    width: 83%;
+    margin-left: 100px;
+}
+
+.HeliInfo>p{
+    margin-left: 3vw;
+}
+
+.heliTourDetails{
+    display: flex;
+       
+        /* align-items: center; */
+        background-color: #E2E4F1;
+        margin-top: 4vh;
+        max-width: 83%;
+        /* justify-content: center; */
+        margin-left: 100px;
+}
+
+.heliList {
+    width: 80%;
+    margin-left: 3vw;
+}
+
+/* .heliTourDetails>div{
+    margin-left: 3vw;
+} */
+
+.heliTrekItenary{
+    display: flex;
+    gap:5vw;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 80vw;
+    width: 83%;
+    margin-left: 100px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.heliTrekIteInfo{
+    margin-left: 3vw;
+    width: 80%;
+}
+
+.mainheliContainer{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heliCirContainer {
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+    /* top: 10vh; */
+}
+
+.heliCirImg{
+    position: absolute;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    /* left: 7.5vw; */
+    /* margin-left: 4.8vw; */
+    z-index: 2;
+    
+}
+
+.heliCirImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.heliCirInfo{
+position:absolute;
+top: 8vh;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+width: 20vw;
+border-style: solid;
+    border-color: gray;
+    border-radius: 1rem;
+    
+}
+
+.heliCost{
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #F1E2F1;
+    width: 83%;
+    margin-left: 100px;
+}
+
+.heliCostInfo{
+    width: 70%;
+    margin-left: 3vw;
+}
+
+
+
+.heliInqBtn{
+    width: 1000px;
+    height: 40px;
+    border: none;
+    background: #FF0000;
+    border-radius: 45px;
+   
+
+}
+
+.heliBtnContainer{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
+.heliCard{
+    display: flex;
+    gap: 10vw;
+}
+
+.heliCardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heligall1{
+    grid-area: top;
+
+}
+.heligall2 {grid-area: bottom;}
+.heligall3 {grid-area: mid;}
+.heligall4 {grid-area: rtop;}
+.heligall5 {grid-area: rdown;}
+.heliGalleryGrid{
+    display: grid;
+        grid-template-areas:
+            'top mid rtop'
+            'bottom mid rdown';
+        gap: 10px;
+        
+        /* padding: 10px; */
+        /* width: 80%; */
+}
+
+.heliGalerryGridContainer{
+    /* display: flex;
+    flex-direction: column; */
+        /* align-items: center;
+        justify-content: center; */
+        width: 80vw;
+        margin-left: 100px;
+}
+
+.heliGalerryGridContainer>h1{
+    margin-right: 60vw;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+.HeliInfo{
+    width: 80%;
+}
+.heliTourDetails{
+    width: 80%;
+}
+
+.heliTrekItenary{
+    width: 80%;
+    gap: 10vw;
+}
+.heliCirContainer{
+    width: 100%;
+}
+.heliCost{
+    width: 80%;
+}
+.heliCostInfo{
+    width: 80%;
+}
+.heliTrekIteInfo{
+    width: 50%;
+}
+.mainheliContainer{
+    width: 40%;
+}
+.heliCirInfo{
+    width: 100%;
+}
+/* .heliCirImg{
+    left: 50vw;
+} */
+/* .heliGalerryGridContainer {
+    width: 100%;
+
+} */
+
+}

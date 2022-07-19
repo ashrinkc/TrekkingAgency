@@ -1,0 +1,57 @@
+.mainHeliCharterGallery{
+    width: 1350px;;
+}
+
+.heliGalleryInfo{
+    margin: 10vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    width: 80vw;
+    flex-wrap: wrap;
+    
+    /* margin-left: 10vw; */
+}
+
+.charterTrips{
+    position: absolute;
+    left: 169px;
+        top: 332px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+}
+
+.wholeGalleryHeli{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heliGallerybtn{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.heliGallerybtn>button{
+    width: 150px;
+        height: 50px;
+    border: none;
+        background: #FF0000;
+        border-radius: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+.heliGalleryInfo{
+    width:100%;
+    gap: 20vw;
+}
+
+
+}

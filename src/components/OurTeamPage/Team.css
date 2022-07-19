@@ -1,0 +1,68 @@
+.TeamHeadImg{
+    width: 1352px;
+        height: 350px;
+}
+
+.team{
+    background-color: black;
+    color: white;
+    width: 1350px;
+    
+}
+
+.teamImg{
+    border-radius: 50%;
+    height: 35vh;
+    width:30vh
+}
+
+.teamInfo{
+    display:flex;
+    gap: 20vw
+}
+
+.teamContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+
+.teamMember{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamMember>p{
+    width: 65vh;
+}
+
+.teambtn{
+    height: 8vh;
+    width: 10vw;
+    border-radius: 9px;
+    margin-bottom: 2vh;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .teamInfo{
+        gap:30vh;
+    }
+
+    .teamContainer{
+        margin-top: -10vh;
+        gap:20vh
+    }
+        .teamMember>p {
+            width: 75vh;
+        }
+    
+.teambtn{
+    width: 10%;
+}
+    
+
+}
